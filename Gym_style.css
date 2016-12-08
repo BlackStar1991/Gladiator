@@ -1,0 +1,282 @@
+	
+	/* ISPRAVLENIYA HEAD*/
+
+.main-menu .sub-menu-store {
+    left: 784px;
+}
+
+.sub-menu-store .pro-sub-menu-store {
+    left: -382%;
+}
+
+.main-menu .sub-menu-services {
+    left: 2.5%;
+}
+
+
+#toolbar {
+   
+    margin-top: -1%;  
+}
+
+/* */
+
+	.field {
+	    display: block;
+	    position: relative;
+	    background: #0C0C0E no-repeat 50% 50%;
+	    width: 1200px;
+	    height: 2300px;
+	    margin: 20px;
+	    border-radius: 5px;
+	    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+	    font-family: Arial, sans-serif;
+	    font-size: 1.2em;
+	    line-height: 1.5;
+	}
+	
+	.field h1 {
+	    text-align: center;
+	    font-style: italic;
+	}
+	
+	@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+ 
+ p.headerText{
+ 	 font-family: 'Rubik One', sans-serif;
+  font-size: 1.3em;
+  color: white; 
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+ }
+
+.forChrom{
+
+	 background: linear-gradient(45deg, #E7EEF9 5%, #38393A 33%, #B7C1D0 66%, #E7EEF9); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*.forCromAnimation {
+				
+				 animation: backgroundMove 3s linear 0s infinite ;
+				 	-webkit-background-clip: text;
+  			-webkit-text-fill-color: transparent;
+
+}
+
+@keyframes backgroundMove {
+	    0% { background: linear-gradient(45deg, #38393A 33%, #B7C1D0 66%, #E7EEF9); }
+	    50% {	background: linear-gradient(45deg, #E7EEF9 33%, #38393A 66%, #B7C1D0);}
+	    100% {	background: linear-gradient(45deg, #B7C1D0 33%, #E7EEF9 66%, #38393A);}
+	}*/
+
+
+
+	div #blockText1 {
+	    padding-top: 1%;
+	    padding-left: 1%;
+	    padding-right: 1%;
+	    float: left;
+	    width: 550px;
+	    height: 400px;
+	}
+	
+	div#blockText1 p, div#blockText3 p {
+	    text-indent: 1em;
+	    padding: 1%;
+	}
+	
+	div#blockText2 {
+					clear: both;
+					float: right;
+					margin-right: 10px;
+	    width: 400px;
+	    max-height: 400px;
+	}
+	
+	div#blockText3 {
+	    
+					float: left;
+					padding-left: 1%;
+	    width: 455px;
+	    height: 470px;
+	    font-size: 95%;
+
+	}
+
+#trainersGym{
+	/*border: 1px solid white;*/
+	height: 260px;
+}
+
+#trainersGym a {
+
+	
+		float: left;
+		color: white;
+		text-align: center;
+		width: 15%;
+		padding-left: 1%; 
+		list-style:none;
+		cursor: pointer;
+	 
+}
+
+	/*trainers*/
+
+		div #trainersBox {
+				display: none;
+			 padding-top: 2%;
+				clear: left;
+				width: 455px;
+				height: 250px;
+				/*border: 1px solid white;*/
+		}
+
+
+#trainersBox img{
+		float: left;
+		margin: 1%;	
+}
+#trainersBox #trainersName {
+	text-align: center;
+	padding: 0%;
+		margin: 0%;
+} 
+
+#trainersBox #trainersAge {
+		padding: 0%;
+		margin: 0%;
+		text-align: right;
+	 font-size: 0.8em;	
+}
+
+#trainersBox #trainersHistory {
+	padding: 0%;
+		margin: 0%;
+	font-size: 0.7em;	
+}
+
+#trainersBox #trainersTel {
+		padding: 0%;
+		margin: 0%;
+		margin-right: 4%;
+		float: right;
+}
+
+
+/*            */
+
+
+	.photo_left {
+	    float: left;
+	    padding: 1%;
+	}
+	
+	.photo_right {
+	    float: right;
+	    padding: 1%;
+	}
+	
+	#textBlock2 {
+	    position: absolute;
+	    left: 35%;
+	    top: 60%;
+	    width: 320px;
+	    height: 400px;
+	}
+	
+	#string {
+	    clear: both;
+
+	    height: 400px;
+	    width: 100%;
+	    background-color: #393939;
+	}
+	
+	#string h4 {
+	    text-align: center;
+	    font-size: 1.2em;
+	    margin-bottom: 0;
+	}
+	
+	#box {
+	    width: 1130px;
+	    height: 220px;
+	    padding-top: 4%;
+	    padding-left: 1%;
+	    padding-right: 1%;
+	    margin-left: 2%;
+	    border: 1px solid white;
+	    text-align: center;
+	    background: url("Images/Gym/string/Full_line1130x220.png") no-repeat 50% 50%;
+	}
+	
+	#box p {
+	    display: inline-block;
+	    width: 220px;
+	    padding-top: 2%;
+	    font-size: 0.8em;
+	    text-align: center;
+	    vertical-align: middle;
+	}
+	
+	#string #box p:hover, #trainersGym a:hover {
+	    font-weight: bold;
+	    color: #E51A1A;
+	}
+
+
+#switch{
+	float: right;
+	position: relative;
+	clear: both;
+	height: 250px;
+	width: 1000px;
+	margin: 20px;
+	/*border: 1px solid white;*/
+	}
+
+
+#switchDivText {
+			position: absolute;
+			left: 5%;
+			top: 15%;
+			font-size: 1.2em;
+}
+
+#switchPicture{
+	float: right;
+
+}
+
+	/* animation disappearance*/
+	
+	.disappearance {
+	    
+	   
+	   /* animation: hideMe 3s linear 5s infinite alternate ;
+	    animation-fill-mode: forwards;*/
+	    /* здесь происходит смена картинки*/
+	}
+	
+	
+	@keyframes showMe {
+	    0% {
+	        opacity: 0
+	    }
+	    100% {
+	        opacity: 1
+	    }
+	}
+	
+	@keyframes hideMe {
+	    0% {
+	        opacity: 1
+	    }
+	    100% {
+	        opacity: 0
+	    }
+	}

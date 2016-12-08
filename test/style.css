@@ -1,0 +1,465 @@
+
+body{ 
+		background-image: url("bg.jpg");
+		background-attachment: fixed;
+		color: white;
+		font-size: 105%;
+		font-family: 'PT Sans', 'Georgia', 'Times New Roman', Times, serif;
+		padding: 10px;
+		
+		
+}
+
+header {  
+		position: relative;
+		width: auto;
+		height: auto;
+		margin-bottom: 10%
+}
+
+.logo  {  
+         position: absolute;
+	     top: 5%;
+	     left: 0%;
+		
+}
+
+
+.block-absolute {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+    font-family: "Courier New", monospace;
+    background: #010101;
+    opacity: 0.8;
+}	
+
+#toolbar {
+    position: relative;
+    float: left;
+    margin-left: 1%;
+    width: 300px;
+}
+
+
+
+
+#likeSubmit {
+    position: absolute;
+   left: 56%;
+   top: 0%;
+   width: 0;
+   height: 0;
+   border-style: solid;
+   border-width: 20px 0 20px 40px;
+
+   border-color: transparent transparent transparent #587ea8;
+    background-color: transparent; 
+   animation: load 1.5s infinite alternate;
+}
+@keyframes load {
+    0% {
+        box-shadow: inset 0px 0px 10px 5px rgba(255, 255, 255, 1), 0px 0px 10px 3px rgba( 116, 234, 251, 0.5);
+    }
+    100% {
+        box-shadow: inset 0px 0px 10px 5px rgba(255, 255, 255, 1), 0px 0px 40px 3px rgba(28, 71, 231, 1);
+    }
+}
+
+
+
+.block_bar  { display: block;
+			width: 50%;
+			margin-bottom: 1%;
+}
+
+
+
+
+.layout-column-left{ float: left;
+					 padding-bottom: 10px;
+	
+}
+.layout-column-right{ float: right;
+						margin-left: 10px;
+	
+}
+
+
+
+
+/* MENU */
+
+.main-menu .services {
+	pointer-events: none;
+}
+
+.main-menu {
+	  width: 100%;
+	  display: block;
+	  padding-top:300px;
+	  
+}
+
+.main-menu  li {
+  
+  float:left;
+  list-style:none;
+  width: 150px;
+  
+}
+
+
+.main-menu > li {
+  padding: 2px 10px;
+  font-size: 140%;
+  font-family: 'PT Sans' serif;	
+}
+
+
+.main-menu  a { 
+	display: block;
+	text-align: center;
+    padding: 10px;  	
+	color: white;
+	font-size: 110%;
+	
+}
+
+
+
+.main-menu li:hover {
+	
+	background: #565657;	
+}
+
+
+.main-menu >li:nth-child(2){
+	text-align: center;
+	width: 550px;
+	
+}
+
+
+
+/* Services  */ 
+
+.main-menu .sub-menu-services { 
+
+position: absolute;
+top: 114%;
+left: 0px;
+z-index: 2;
+margin: 0;
+padding: 0;
+display: none;  
+}
+
+.main-menu .sub-menu-services  li {
+padding: 0;
+margin: 0;
+height: 50px;
+}
+
+
+
+.main-menu >li:hover .sub-menu-services {
+  display: block;
+}
+
+/* sub-menu-stors */
+
+
+.main-menu .sub-menu-store {
+    position: absolute;
+    top: 114%;
+    left: 743px;
+	width: 150px;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.main-menu .sub-menu-store > li {
+    position: relative;
+	width: 170px;
+    z-index: 1;
+}
+
+.main-menu >li:hover .sub-menu-store {
+    display: block
+}
+
+
+/* pro-sub-menu-store */
+
+.sub-menu-store .pro-sub-menu-store {
+	position: absolute;
+	top: 0px;
+	z-index: 50;
+    left: -608px;
+	width: 800px;
+	display: none;
+	
+}
+.sub-menu-store li:hover .pro-sub-menu-store {
+	display: block;
+	height: 150px;
+	
+}
+
+.pro-sub-menu-store li {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;	
+}
+
+.pro-sub-menu-store a {
+	
+	height: 40px;
+}
+
+
+/* вид */
+
+
+.main-menu li {
+  font:Bold Small Tahoma;
+  background: #302c2c; 
+  color:white;
+  border: 1px solid #bababb; 
+}
+
+
+.main-menu a {
+  color:white; 
+  text-decoration:none;
+  text-align: center;
+}
+
+
+/* */
+
+
+.field {
+
+    display: block;
+	background:  #100000 no-repeat  50% 50%;
+	width: 1200px;
+	height: 1170px;
+    margin: 1%;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+}
+
+
+/*   field   */
+
+.field .block  {
+	position: relative;
+	float: left;
+    width: 370px;
+    margin: 1%;  
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+	overflow: hidden;
+
+}
+
+#gymBox {
+	width: 370px;
+	height: 556px;
+	background: url('2bl1.jpg') no-repeat 50% 50%;
+}
+
+#aerobicsBox{
+	width: 370px;
+	height: 556px;
+	background: url('bl2.jpg') no-repeat 50% 50%;
+}
+#dancingBox{
+	width: 370px;
+	height: 556px;
+	background:  url('bl3.jpg') no-repeat 50% 50%;
+}
+#poleDancingBox{
+	width: 370px;
+	height: 556px;
+	background: url('bl4.jpg') no-repeat 50% 50%;
+}
+#swimmingBox{
+	width: 370px;
+	height: 556px;
+	background: url('bl5.jpg') no-repeat 50% 50%;
+}
+#boxBox{
+	width: 370px;
+	height: 556px;
+	background: url('bl6.jpg') no-repeat 50% 50%;
+}
+
+
+
+/*  псевдо кастыль */
+.clearfix::after { 
+		content: "";            
+		display: table;
+        clear: both;
+}
+
+
+/*  trenera */
+
+#field-min {
+	
+	background:  #100000 no-repeat  50% 50%;
+	position: relative;
+	width: 1200px;
+	min-height: 300px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+}
+
+
+
+.trainer {
+	display: inline-block;
+	position: relative;
+	text-align: center;
+		margin: 1%;
+	
+}
+
+
+
+.circle {
+	
+	width: 200px;
+	height: 200px;
+	background:  #416993 ;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.trainer .textblock {
+	float: right;
+
+	width: 350px;
+	padding: 20px 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	text-align: left;
+	vertical-align: left;
+	
+	border: 1px solid white;
+	border-radius: 5px;
+	display: none;
+
+	
+}
+
+
+
+
+.close {
+	position: absolute;
+	top: 3%;
+	left: 92%;
+	width: 40px;
+	height: 40px;
+	background: url("Images/icons/close32x32.png") no-repeat 50% 50%;
+	cursor: pointer;
+}
+
+.trainer a{
+	color: red;
+	text-decoration: underline;
+}
+.trainer .social-fb {
+	float: right;
+}
+
+
+
+/* footer*/
+
+footer { 
+
+	background-image: linear-gradient( #181818, #302C2C );  
+	width: auto;
+	height: 120px;
+}
+
+.motto { position: absolute;
+		left: 50%;
+		
+
+}
+
+.motto span { 
+	margin:0;
+	padding: 0;
+	font-size: 300%;
+	font-family: 'PT Sans' serif;
+}
+
+
+
+
+.share {
+	
+	display: block;
+	float:right;
+	
+ 
+}
+
+
+.contacts {
+	position: relative;
+	display: block;
+	float: left;
+	width: 150px;
+	
+}
+
+.contacts p { 
+font-size: 120%;
+text-decoration: underline;
+margin: 0;
+padding: 0;
+}
+.contacts span { font-size: 75%;
+} 
+ 
+ 
+
+.social {   display: inline-block;
+			position: relative;
+            width: 42px;
+            height: 42px;
+            margin-right: 10px;
+            vertical-align: middle;
+}
+
+
+
+.social-vk {
+	background: URL("Images/icons/vk.png") no-repeat ;
+}
+.social-fb {
+	background: URL("Images/icons/fs.png") no-repeat ;	
+}
+.social-yt {
+	background: URL("Images/icons/youtube.png") no-repeat ;	
+}
+
+
+
+
+

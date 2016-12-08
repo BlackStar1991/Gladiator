@@ -1,0 +1,338 @@
+
+body{ 
+		background-image: url("bg.jpg");
+		background-attachment: fixed;
+		color: white;
+		font-size: 105%;
+		font-family: 'PT Sans', 'Georgia', 'Times New Roman', Times, serif;
+		padding: 10px;
+		
+}
+
+
+header {  display:block;
+		position: relative;
+		width: auto;
+		height: auto;
+		margin-bottom: 10%
+}
+
+.logo  {  
+         position: absolute;
+	     top: 0;
+	     left: 0;
+		 clear: right;
+		 margin-top: 1%;
+		 margin-left: 1%;
+}
+
+
+.block-absolute {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+    font-family: "Courier New", monospace;
+    background: #010101;
+    opacity: 0.8;
+}	
+
+
+
+
+.toolbar{   position: relative;
+			float: left;
+			top: -15px;
+			margin-left:1%;
+			width: 300px;
+}
+
+.log_in { 
+	position: relative;
+	display: block;		
+}
+
+
+
+.like-submit { position: absolute;
+				left:50%;
+				top: -5%;
+
+}
+
+
+
+.block_bar  { display: block;
+			width: 50%;
+			margin-bottom: 1%;
+}
+
+
+
+
+.layout-column-left{ float: left;
+					 padding-bottom: 10px;
+	
+}
+.layout-column-right{ float: right;
+						margin-left: 10px;
+	
+}
+
+
+
+
+/* MENU */
+
+
+/*  Protein Views */
+.protein_views {
+    position: relative;
+    float: left;
+    width: 255px;
+    height: 113px;
+    background-color: #302C2C;
+    margin: 2px;
+    padding: 5px;
+    border: 1px solid #BABABB;
+    border-radius: 5px;
+}
+
+.view {
+   text-transform: uppercase;
+   float: left;
+   font-weight: bold;
+   padding-left: 10px;
+   padding-top: 10px; 
+}
+
+
+.view h6 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-left: 10px;
+}
+
+.img_position { 
+  position: absolute;
+  left: 45%;
+  top: 0px;  
+}
+
+/**/
+
+
+li {
+  font: Bold Small Tahoma;
+  background: #302c2c; 
+  color:white;
+  border: 1px solid #bababb; 
+}
+
+
+a {
+  color:white; 
+  text-decoration:none;
+  
+}
+
+/* LEFT SLIDER*/
+.left_slider 
+	{display: block;
+		float: left;
+	background:  #100000 no-repeat  50% 50%;
+	width: 200px;
+	height: 1170px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);}
+
+
+/* WHEY PROTEIN*/
+.whey_protein {
+
+    display: block;
+    float: left;
+    position: relative;
+	background:  #100000 no-repeat  50% 50%;
+	width: 1300px;
+	height: 1300px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+}
+
+
+.paginator {
+	display: block;
+	position: absolute;
+    left: 40%;
+    top: 4%;
+	width: 480px;
+    padding: 10px;
+
+}
+
+.paginator a,
+.paginator span {
+    display: inline-block;
+    min-width: 20px;
+    height: 45px;
+    padding: 0 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: #95a5a6;
+}
+
+.paginator .prev {
+    margin-right: 20px;
+  
+    background-image: url("Images/icons/left.png");
+    background-repeat: no-repeat;
+   	background-position: top left;
+}
+
+.paginator .next {
+    margin-left: 20px;
+   
+    background-image: url("Images/icons/right.png");   
+    background-repeat: no-repeat;
+    
+}
+
+.paginator .current {
+    background-color: #16a085;
+}
+
+.paginator .disabled {
+    opacity: 0.3;
+}
+
+.paginator a:hover {
+    background-color: #2ecc71;
+}
+
+/* Sorter*/
+
+#Sort {
+    margin-left: 10px; 
+    margin-bottom: 20px;
+}
+
+/*  LIttle BoX */
+
+.content_boxes {
+
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: space-around;
+
+    max-width: 1300px;
+    max-height: 1300px;
+}
+
+
+.little_box {
+   
+    flex-grow:1;
+     margin: 10px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+    
+    }
+
+
+.little_box img {
+    float: left;
+}
+
+/*.little_box span {
+
+} 
+*/
+
+/**/
+
+.rightside_box {
+    position: relative;
+    height: 170px;
+}
+
+.name {
+    margin-right: 1%; 
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.weight {
+    float: right;
+    position: absolute;
+    left: 80%;
+    bottom: 0;
+    
+    font-size: 1em;
+    font-style: italic;
+    padding-right: 1%;
+}
+
+/**/
+
+.stars {
+    position: relative;
+    width: 100%;
+   
+}
+
+.reviews {
+    float: right;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+    
+/* внешний контейнер - фон с серыми звездочками */
+.rate_background {
+    position: relative;
+    float: right;
+    width: 160px;
+    height: 32px;
+    background:url('Images/icons/star_gray.png') repeat-x;
+    cursor: pointer;
+}
+ 
+/* внутренний контейнер - полоса рейтинга с золотыми звездочками */
+.rate_bar {
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+    height: 32px; 
+    background:url('Images/icons/star_gold.png') repeat-x;
+}
+
+
+
+
+
+/**/
+.price {
+    padding-top: 10%;
+    padding-left: 60%;  
+    font-size: 1.3em;
+    font-weight: bold;    
+    color: red;
+}
+
+.member_price { 
+    padding-left: 60%;  
+    font-size: 1em;
+    font-weight: bold;    
+    color: green;
+}

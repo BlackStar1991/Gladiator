@@ -1,0 +1,324 @@
+     /* ISPRAVLENIYA HEAD*/
+     
+     .main-menu .sub-menu-store {
+         left: 784px;
+     }
+     
+     .sub-menu-store .pro-sub-menu-store {
+         left: -382%;
+     }
+     
+     .main-menu .sub-menu-services {
+         left: 40px;
+     }
+     
+     #toolbar {
+         margin-top: -1%;
+     }
+     /* */
+
+
+ .field {
+     display: block;
+     position: relative;
+     background: #0C0C0E no-repeat 50% 50%;
+     width: 1200px;
+     height: 1000px;
+     margin: 1%;
+     border-radius: 5px;
+     box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+     font-family: Arial, sans-serif;
+     font-size: 1.2em;
+     line-height: 1.5;
+
+ }
+
+
+#boxingHeader {
+    position: relative;
+    width: 100%;
+    height: 1%;
+ 
+}
+
+#logoLeft {
+     position: absolute;
+     left: 33%;
+ }
+
+#logoRight{
+  position: absolute;
+    top: 10%;
+     left: 56%;
+ }
+
+
+ #titleBoxing{
+     text-align: center;
+     text-decoration: underline;
+     padding-top: 0.5%;
+   
+}
+#sidebarBox{
+    float: left;
+    width: 14%;
+    margin-top: 10%;
+    /*border: 1px solid white;*/
+}
+
+#sidebarBox p {
+    font-weight: bolder;
+    cursor: pointer;
+ }
+
+#sidebarBox li {
+   
+    list-style-type: none;
+    text-align: center; 
+    padding-left: 10%;
+    margin-left: -15%;
+    margin-top: 15%;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#videoBox {
+    float: left;
+    margin-top: 10%;
+    display: none;
+}
+
+#contextBoxing{
+    position: relative;
+    margin-top: 12%;
+    margin-left: 15%;
+    margin-right: 1%;
+    /*border: 1px solid white;*/
+
+}
+
+#text_BoxingClub{
+    display: none;
+}
+
+#text_Motivation {
+    display: none;
+}
+
+#text_Motivation img{
+    float: left;
+}
+
+#text_scheduleBox{
+    max-height: 800px;
+    /*display: none;*/
+}
+
+#text_trainersBox{
+    position: relative;
+    display: none;
+}
+
+#personalTraining{
+    font-size: 1.5em;
+    position: absolute;
+    left: -15%;
+    bottom: 20%;
+}
+
+#personalTrainingText{
+    position: absolute;
+       left: -15%;
+}
+
+/*   scheduleBox    */
+table {
+
+    position: relative;
+}
+     
+
+
+#text_scheduleBox table, #text_scheduleBox th {
+
+    text-align: center;
+    vertical-align: middle;
+    margin: 1%;
+    padding: 1.5%;
+    border: 1px solid white;
+}
+
+#text_scheduleBox td {
+     padding: 1%
+      margin: 1%;
+     border: 1px solid white;
+}
+
+#text_scheduleBox tr:nth-child(2n+3){
+    background-color: #830B0B;
+}
+
+#text_scheduleBox tr:nth-child(2n) td:nth-child(n+2){
+    background-color:  #0C327F;
+}
+
+#scheduleGroup1 {
+    float: left;
+    margin: 1%;
+    width: 100px;
+    height: 30px;
+    background-color:  #0C327F;
+    border: 1px solid white;
+
+}
+
+#scheduleGroup2 {
+    clear: left;
+    float: left;
+    margin: 1%;
+    width: 100px;
+    height: 30px;
+    background-color:  #830B0B;
+    border: 1px solid white;
+}
+
+.group {
+    padding-top: 1%;
+    float: left;
+}
+
+/*   scheduleBox  END  */
+
+
+#photosTreners {
+    position: relative;
+    margin-top: 10%;
+    left: 30%;  
+    /*border: 1px solid white;*/
+}
+
+.circleTrener { 
+
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    /*overflow: hidden;*/
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.circleTrener2 { 
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    /*overflow: hidden;*/
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+.img_AbrahamOrtega {  
+    background: url("Images/Boxing/coaches/Abraham-Ortega_min.jpg") no-repeat 50% 50%; ;
+}
+
+.img_SmetanaEugene {
+     background: url("Images/Boxing/coaches/Smetana_Eugene_min.jpg") no-repeat 50% 50%; ;
+}
+
+.img_KiryuhinOleg {
+     background: url("Images/Boxing/coaches/Kiryuhin-Oleg-Stanislavovich_min.jpg") no-repeat 50% 50%; ;
+}
+
+.img_SilichevaEvgeniya {
+   background: url("Images/Boxing/coaches/Silicheva-Evgeniya_min.jpg") no-repeat 50% 50%; ;
+}
+
+.img_MaduluDmitry {
+   background: url("Images/Boxing/coaches/Madulu-Dmitry_min.jpg") no-repeat 50% 50%; ;
+}
+
+.nameOfTrener{
+   
+    float: left;
+    margin: 0% 1%;
+    padding: 0%;
+    /*border: 1px solid white;*/
+    text-align: center;
+    cursor: pointer;
+ 
+}
+
+
+#photosTreners > div.nameOfTrener:hover{      
+    transform: scale(1.1);
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+
+.instructorImg{
+   
+    float: right;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5%;
+    padding: 1%;
+}
+
+.closeTrainer {
+   position: absolute;
+    left: 94%;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+
+}
+
+.closeTrainer::before {
+    content: "[";
+}
+.closeTrainer::after {
+    content: "]";
+}
+
+/*TRENERT*/
+
+#couch_OrtegaAbraham {
+    display: none;
+}
+
+#couch_SmetanaEugene {
+    display: none;
+}
+
+#couch_KiryuhinOleg {
+    display: none;
+}
+
+
+#couch_SilichevaEvgeniya {
+    display: none;
+}
+
+#couch_MaduluDmitry {
+    display: none;
+}
+
+.since {
+    position: absolute;
+    top: 10%;
+    left: 52%;
+    font-size: 0.7em;
+}
+
+.contatcsBox {
+    position: absolute;
+   
+    left: 50%;
+   
+}
