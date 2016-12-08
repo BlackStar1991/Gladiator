@@ -191,7 +191,7 @@ ul, li {
 		position: relative;
 		width: 100%;
 		height: 100%;
-		border: 1px solid red;
+		/*border: 1px solid red;*/
 		display: none;
 }
 
@@ -204,19 +204,19 @@ h2 {
 /*RightBlockTrainer*/
 
 #LeftBlockTrainer {
-		position: relative;
+		/*position: relative;*/
 		float: left;
-		width: 40%;
+		width: 39%;
 		height: 65%;
-
-		border: 1px solid blue;
+		margin-left: 1%;
+		/*border: 1px solid blue;*/
 }
 
 #trainersYoung {
-		/*margin-top: 15%;*/
+		
 		width: 100%;
 		height: 70%;
-		border: 1px solid blue;
+		/*border: 1px solid blue;*/
 }
 
 .coach {
@@ -230,31 +230,31 @@ h2 {
 
 .coach p {
 		position: absolute;
-		font-weight: bold;
-		/*height: 150px; !* like 2*R circle image*!*/
-		width: 150px;
-		/*padding-top: 25%;*/
-		/*padding-bottom: -100% ;*/
-
+		left: 0;
 		margin-top: -25%;
+		font-weight: bold;
+		width: 150px;
+	
 		vertical-align: middle;
 		text-align: center;
-		/*margin-top: -25%;*/
 		cursor: pointer;
-		border: 1px solid red;
+		opacity: 0;
+		/*border: 1px solid red;*/
 }
 
-/*.coach p:hover{*/
-		/*animation: moveLeft 15s ease-out;*/
-/*}*/
+.coach:hover p{
+		animation: moveLeft 1s ease-out;
+		animation-fill-mode: forwards;
+}
 
-/*@keyframes moveLeft{*/
-		/*20% {transform: translateX(0%); opacity: 0;}*/
-		/*20% {transform: translateX(150%); opacity: 0.5;}*/
-		/*50% {transform: translateX(150%); opacity: 1;}*/
-		/*80% {transform: translateX(0%); opacity: 0.5;}*/
-		/*100% {transform: translateX(0%); opacity: 0;}*/
-/*}*/
+@keyframes moveLeft{
+		0% {
+			left: 0; opacity: 0;
+		}
+		100% {
+			left: 190px; opacity: 1;
+		}
+}
 
 #informationAboutTrainer{
 		position: relative;
@@ -285,16 +285,18 @@ h2 {
 #slider-container {
 		position: relative;
 		float: left;
-		width: 55.75%; /* Корректировать если фото >3 */
+		width: 56%; /* Корректировать если фото >3 */
 		margin: 1%;
 		overflow: hidden;
-
+border: 1px solid deeppink;
 		/*display: none;*/
 }
 
 .slides {
-		/*height: 100%;*/
-		position: relative;
+		width: 100%;
+		height: 100%;
+		/*position: absolute;*/
+
 }
 
 .slides li {
@@ -330,7 +332,19 @@ h2 {
 		opacity: 1;
 }
 
+
 /*slider*/
+
+.youngSchedule th, .youngSchedule tr{
+		width: 20%;
+		height: 100%;
+		padding: 1% 1.2%;
+	
+		border: 1px solid white;
+		font-size: 0.93em;
+		vertical-align: middle;
+		text-align: center;
+}
 
 /*ballroomContent*/
 
@@ -353,18 +367,19 @@ h2 {
 		position: absolute;
 		top: 100%;
 		left: 30%;
-
+		/*display: none;*/
 }
 
 #BlockBallroom {
-		margin-top: 5%;
-		margin-left: 1%;
+		margin: 1%;
+		/*display: none;*/
 }
 
-#balletTeacher, #bigTeacher {
+#balletTeacher{
+	
+		display: inline;
 		float: left;
-		width: 20%;
-		height: 100%;
+		
 		margin-top: 1%;
 		margin-left: 1%;
 		/*border: 1px solid white;*/
@@ -372,7 +387,17 @@ h2 {
 
 }
 
+
 #bigTeacher {
+			float: left;
+		width: 20%;
+		height: 100%;
+		margin-top: 1%;
+		margin-left: 1%;
+		/*border: 1px solid white;*/
+		text-align: center;
+
+
 
 		display: none;
 
@@ -389,9 +414,8 @@ h2 {
 		width: 150px;
 		height: 150px;
 
-		margin-top: 1%;
-		-moz-border-radius: 50%;
-		-webkit-border-radius: 50%;
+		/*margin-top: 1%;*/
+		
 		border-radius: 50%;
 		cursor: pointer;
 }
@@ -403,7 +427,7 @@ h2 {
 		height: 100%;
 		margin-top: 1%;
 		margin-left: 1%;
-		border: 1px solid white;
+		/*border: 1px solid white;*/
 
 		text-align: left;
 }
@@ -418,35 +442,34 @@ h2 {
 		cursor: pointer;
 }
 
-.scheduleBox {
-		position: relative;
-		clear: both;
-		margin-top: 15%;
+/*.scheduleBox {
+		position: absolute;
+		bottom: 0;
 		height: 100%;
 		width: 100%;
+}*/
+
+.scheduleBox fieldset {
+	position: absolute;
+	margin-top: 22%;
+	margin-left: -1%;
 }
 
-fieldset {
 
-		margin-left: -1%;
-}
+.balletSchedule table, .balletSchedule td {
 
-table {
-		width: 100%;
-		height: 100%;
-
+		/*height: 100%;*/
 		margin: 1%;
-
 		text-align: center;
 		border: 1px solid white;
 }
 
-td,
-th {
+
+th, tr,td {
 		width: 100%;
 		height: 100%;
-		padding: 1%;
-		margin-left: -1%;
+		padding: 1% 1.2%;
+	
 		border: 1px solid white;
 		font-size: 0.93em;
 		vertical-align: middle;

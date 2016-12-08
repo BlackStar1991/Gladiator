@@ -33,92 +33,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dancing.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Dancing.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dancing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+            <state relative-caret-position="-866">
+              <caret line="109" column="18" lean-forward="true" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Swimming.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Swimming.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="191" column="34" lean-forward="true" selection-start-line="191" selection-start-column="34" selection-end-line="191" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gymnastics.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gymnastics.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="451" column="35" lean-forward="true" selection-start-line="451" selection-start-column="35" selection-end-line="451" selection-end-column="35" />
-              <folding>
-                <element signature="e#4511#4516#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gymnastics_style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gymnastics_style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="384" column="10" lean-forward="true" selection-start-line="384" selection-start-column="10" selection-end-line="384" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Aerobics.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aerobics.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
-              <folding>
-                <marker date="1481214132851" expanded="true" signature="5190:5209" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="5222:5299" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="5309:5437" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="5453:5510" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="5526:5583" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="5599:5680" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="5695:5780" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="5795:5880" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="5897:5980" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="6001:6090" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="6115:6207" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="6233:6327" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="6348:6438" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="6464:6558" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="6584:6678" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="6690:6911" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="6926:7003" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="7033:7185" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="7200:7246" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="7263:7310" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="7324:7451" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="7473:7498" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="7518:7543" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="7557:7623" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="7656:7696" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="7728:7752" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="7788:7812" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="7844:7868" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="7883:8012" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="8040:8100" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="8160:8236" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="8266:8337" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="8352:8427" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="8442:8502" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="8518:8594" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="8621:8703" ph="{...}" />
-                <marker date="1481214132851" expanded="true" signature="8762:8844" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -310,20 +230,20 @@
       <workItem from="1478271776758" duration="3234000" />
       <workItem from="1478634530247" duration="1844000" />
       <workItem from="1478679209471" duration="2684000" />
-      <workItem from="1481180551075" duration="9783000" />
+      <workItem from="1481180551075" duration="9793000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107893000" />
+    <option name="totallyTimeSpent" value="107903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23700121" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23700121" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0022962112" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0022962112" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -338,6 +258,24 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0022962112" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23700121" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -680,7 +618,7 @@
     <entry file="file://$PROJECT_DIR$/Aerobics.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
-          <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
           <folding>
             <marker date="1481214132851" expanded="true" signature="5190:5209" ph="{...}" />
             <marker date="1481214132851" expanded="true" signature="5222:5299" ph="{...}" />
@@ -739,18 +677,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dancing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Swimming.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="191" column="34" lean-forward="true" selection-start-line="191" selection-start-column="34" selection-end-line="191" selection-end-column="34" />
+          <caret line="191" column="34" lean-forward="false" selection-start-line="191" selection-start-column="34" selection-end-line="191" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -758,7 +688,7 @@
     <entry file="file://$PROJECT_DIR$/Gymnastics.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="451" column="35" lean-forward="true" selection-start-line="451" selection-start-column="35" selection-end-line="451" selection-end-column="35" />
+          <caret line="451" column="35" lean-forward="false" selection-start-line="451" selection-start-column="35" selection-end-line="451" selection-end-column="35" />
           <folding>
             <element signature="e#4511#4516#0" expanded="true" />
           </folding>
@@ -768,7 +698,15 @@
     <entry file="file://$PROJECT_DIR$/Gymnastics_style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
-          <caret line="384" column="10" lean-forward="true" selection-start-line="384" selection-start-column="10" selection-end-line="384" selection-end-column="10" />
+          <caret line="384" column="10" lean-forward="false" selection-start-line="384" selection-start-column="10" selection-end-line="384" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dancing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-866">
+          <caret line="109" column="18" lean-forward="true" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
           <folding />
         </state>
       </provider>
