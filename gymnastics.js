@@ -117,4 +117,35 @@ chooseSection($armsButt,  $handstandSection);
 chooseSection($ringsButt, $ringsSection);
 
 
+
+
+
+    ///// ВИдио постер по нажатию
+
+function play() {
+    var id = this.dataset.id;
+    if(id) {
+        var embed = document.createElement('iframe');
+      embed.allowFullscreen = true;
+      embed.name = 'video-' + Math.random();
+      embed.src = 'https://www.youtube.com/embed/' + id + '?autoplay=1';
+      this.appendChild(embed);
+      this.classList.add('video--play');
+      this.removeEventListener('click', play);
+    }
+  }
+  
+  var i, videos = document.querySelectorAll('.video');
+  
+  for(i = 0; i < videos.length; i++) {
+    videos[i].addEventListener('click', play);
+  }
+
+
+
+
+
+
+
 }
+

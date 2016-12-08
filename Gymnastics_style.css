@@ -362,13 +362,48 @@ th:first-child {
 		font-size: 1.2em;
 }
 
-/*<iframe width="560" height="315" src="https://www.youtube.com/embed/FxUCesWcP7k" frameborder="0" allowfullscreen></iframe>*/
 
-.videoBox {
+
+.video {
 		position: absolute;
 		top: 66%;
 		left: -30%;
 		width: 560px;
 		height: 320px;
 		border: 1px solid white;
+		cursor: pointer;
+}
+
+.video::after {
+	border: 30px solid transparent;
+	border-left-color: #EEE;
+	border-left-width: 50px;
+	border-right: none;
+	bottom: 0;
+	content: '';
+	height: 0;
+	left: 0;
+	margin: auto;
+	opacity: 0.75;
+	position: absolute;
+	transition: all 0.3s;
+	right: 0;
+	top: 0;
+	width: 0;
+}
+
+.video:hover::after {
+	border-width: 35px;
+	border-left-width: 58px;
+	opacity: 0.9;
+}
+
+.video iframe {
+	border: none;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
 }
