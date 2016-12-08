@@ -131,7 +131,7 @@ a{
 
 position: absolute;
 top: 119.5%;
-left: 2.4%;
+left: 2.2%;
 margin: 0;
 padding: 0;
 display: none;  
@@ -375,7 +375,7 @@ footer {
 	margin-left: 1%; 
 	background-image: linear-gradient( #181818, #302C2C );  
 	width: 1200px;
-	height: 120px;
+	height: 150px;
 }
 
 .motto { position: absolute;
@@ -386,7 +386,7 @@ footer {
 .motto span { 
 	margin:0;
 	padding: 0;
-	font-size: 3em;
+	font-size: 4em;
 	font-family: 'PT Sans' serif;
 }
 
@@ -394,7 +394,7 @@ footer {
 
 
 .share {
-	
+	top: 0;
 	position: absolute;
 	left: 80%;
 	width: 20%;
@@ -402,7 +402,7 @@ footer {
 }
 
 
-.contacts p { 
+.share.title { 
 font-size: 120%;
 text-decoration: underline;
 margin: 0;

@@ -1,4 +1,23 @@
 
+/* ISPRAVLENIYA HEAD*/
+ .main-menu .sub-menu-store {
+      top: 114.5%;
+    left: 744px;
+ }
+ 
+ .sub-menu-store .pro-sub-menu-store {
+     left: -358%;
+ }
+
+
+.main-menu .sub-menu-services { 
+
+
+top: 113.5%;
+left: 0%;
+
+}
+
 ul {
     margin: 0;
     padding: 0;
