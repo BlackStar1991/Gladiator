@@ -1,0 +1,488 @@
+ /* ISPRAVLENIYA HEAD*/
+ 
+ .main-menu .sub-menu-store {
+      top: 114.5%;
+    left: 744px;
+ }
+ 
+ .sub-menu-store .pro-sub-menu-store {
+     left: -358%;
+ }
+
+
+.main-menu .sub-menu-services { 
+
+
+top: 113.5%;
+left: 0%;
+margin: 0;
+padding: 0;
+
+}
+ 
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+
+ .field {
+     display: block;
+     position: relative;
+     background: #0C0C0E no-repeat 50% 50%;
+     width: 1200px;
+     height: 1500px;
+     margin: 1%;
+     border-radius: 5px;
+     box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+     font-family: Arial, sans-serif;
+     font-size: 1.2em;
+    
+ }
+ 
+ #aerobicsHeader{
+     height: 12%;
+ }    
+
+ #titleAerobics {
+     position: absolute;
+     left: 40%;
+     top: 5%;
+     text-decoration: underline;
+  
+ }
+ 
+ #logoLeft {
+    position: absolute;
+    left: 25%;
+    top: 0;
+ }
+ 
+ #logoRight {
+     position: absolute;
+     left: 60%;
+
+ }
+ 
+ #textBox1 {
+     position: relative;
+     font-size: 0.8em;
+     width: 100%;
+     padding-left: 1%;
+     /*border: 1px solid white;*/
+ }
+
+ #mainAerobics {
+   /*text-indent: 1.8em;*/
+   margin-top: 1%;
+   width: 95%;
+   background: url('../Images/Aerobics/motivation.png') no-repeat 70% 70%; 
+ }
+ #mainAerobics > p{
+    text-indent: 1.8em; 
+ }
+
+ #mainAerobics h2 {
+     cursor: pointer;
+ }
+
+
+
+ #sectionsAerobics {
+     position: absolute;
+     top: 2%;
+     width: 40%;  
+     font-weight: bold;
+     text-decoration: none;
+ }
+
+
+ #sectionsAerobics h2 {
+   margin: 1%;
+ }
+
+ .sectionsStyleFirst li {
+font-size: 2em;
+     padding:2%;
+
+cursor: pointer;
+border-radius: 0 40% 40% 0;
+}
+ /* Menu*/
+
+ 
+ .sectionsStyleFirst li:nth-child(1) {
+     width: 100%;
+     background-image: -moz-linear-gradient(left, #FC1B1B, #D30000);
+     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #FC1B1B), color-stop(1.00, #D30000));
+     /* IE code - note GradientType=1 means horizontal */
+     filter: progid: DXImageTransform.Microsoft.gradient(enabled=true, startColorstr=#FC1B1B, endColorstr=#D30000, GradientType=1);
+ }
+ 
+ .sectionsStyleFirst li:nth-child(2) {
+     width: 80%;
+     background-image: -moz-linear-gradient(left, #F6F674,#EDD300);
+     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #C7A911), color-stop(1.00, #EDD300));
+     /* IE code - note GradientType=1 means horizontal */
+     filter: progid: DXImageTransform.Microsoft.gradient(enabled=true, startColorstr=#C7A911, endColorstr=#EDD300, GradientType=1);
+ }
+ 
+ .sectionsStyleFirst li:nth-child(3) {
+     width: 60%;
+     background-image: -moz-linear-gradient(left, #A1D004,#6B9A00);
+     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #A1D004), color-stop(1.00, #6B9A00));
+     /* IE code - note GradientType=1 means horizontal */
+     filter: progid: DXImageTransform.Microsoft.gradient(enabled=true, startColorstr=#A1D004, endColorstr=#6B9A00, GradientType=1);
+ }
+ 
+ .sectionsStyleFirst li:nth-child(4) {
+     width: 40%;
+     background-image: -moz-linear-gradient(left, #7E82F4, #3B3FC7);
+     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #7E82F4), color-stop(1.00, #3B3FC7));
+     /* IE code - note GradientType=1 means horizontal */
+     filter: progid: DXImageTransform.Microsoft.gradient(enabled=true, startColorstr=#7E82F4, endColorstr=#3B3FC7, GradientType=1);
+ }
+ /* sectionsStyleSecond - Второй класс минюхи */
+ 
+ .sectionsStyleSecond li {
+     
+     width: 50%;
+     margin-top: 0;
+     padding: 3%;
+     border: 1px solid white;
+     text-align: left;
+     cursor: pointer;
+ }
+ 
+ .sectionsStyleSecond li:hover {
+     padding-left: 5%;
+     text-align: center;
+    
+ }
+ 
+ .sectionsStyleSecond li:nth-child(1) {
+     background-color: #2F2F2F;
+
+ }
+ 
+ .sectionsStyleSecond li:nth-child(2) {
+     background-color: #4B4B4B;
+     width: 45%;             
+ }
+ 
+ .sectionsStyleSecond li:nth-child(3) {
+     background-color: #666666;
+     width: 40%; 
+ }
+ 
+ .sectionsStyleSecond li:nth-child(4) {
+     background-color: #808080;
+     width: 30%; 
+ }
+ /* MENU end*/
+
+ #coachesFull  {
+     position: relative;
+     margin-top: 2%;
+     width: 100%;
+     height: 418px;
+     border: 1px solid white;
+     border-radius: 2%;
+ }
+
+/* all trainers*/
+ #allAerobicTrainers{
+     position: relative;
+     width: 500px;
+     height: 500px;
+     /*border: 1px solid white;*/
+ }
+
+.shiftRight {
+     margin-left: 25%;
+}
+
+.wobbling {
+
+     animation: wobbl 2s ease-in infinite alternate;
+}
+
+
+
+@keyframes wobbl {
+     0% { transform: translateX(0); }
+     100% { transform: translateX(10%); }
+} 
+
+
+.rotation  {
+      animation: rot 8s linear infinite;
+}
+
+.rotation > div {
+     animation: rot 8s linear infinite reverse;
+}
+
+
+
+@keyframes rot {
+     0% { transform: rotate(0deg);}
+     100% { transform: rotate(360deg); }
+}
+
+/*.rotation:hover {
+     animation-play-state: paused;
+}*/
+
+/**/
+.coachAerobic{
+     position:absolute;
+     top: 1%;
+     left: 1%;
+}
+
+.coachThis {
+     position: absolute;
+     top: 12%;
+     left: 40%;
+     z-index: 10;
+}
+
+.square {
+     width: 100px;
+     height: 100px;
+     border: 1px solid white;
+     margin: 1%;
+     cursor: pointer;
+     z-index: 3;
+}
+
+.coachNumber1 {
+     position: absolute;
+     top: 10%;
+     left: 0;
+}
+
+.coachNumber2 {
+     position: absolute;
+     top: 35%;
+     left: 0;
+}
+
+.coachNumber3 {
+     position: absolute;
+     top: 60%;
+     left: 0;
+     /*display: none;*/
+}
+.coachNumber4 {
+     position: absolute;
+     top: 22.5%;
+     left: 25%;
+     /*display: none;*/
+}
+.coachNumber5 {
+     position: absolute;
+     top: 47.5%;
+     left: 25%;
+     /*display: none;*/
+}
+ 
+.coachNumber6 {
+     position: absolute;
+     top: 35%;
+     left: 50%;
+     /*display: none;*/
+}
+
+.trainer_BuffDudes {
+     background: url("../Images/Aerobics/Coaches/Buff-Dudes_min.jpg") no-repeat 50% 50%;
+}
+
+
+.trainer_AlenaMaslova {
+     background: url("../Images/Aerobics/Coaches/Alena-Maslova_min.jpg") no-repeat 50% 50%;
+}
+
+.trainer_ArinaBogdanova {
+background: url("../Images/Aerobics/Coaches/Arina-Bogdanova_min.jpg") no-repeat 50% 50%;
+    
+}
+
+.trainer_AnnaStauro{
+background: url("../Images/Aerobics/Coaches/Anna-Stauro_min.jpg") no-repeat 50% 50%;
+    
+}
+
+.trainer_IrinaSalnikova {
+background: url("../Images/Aerobics/Coaches/Irina-Salnikova_min.jpg") no-repeat 50% 50%;
+    
+}
+
+.trainer_AlionaDyumaeva {
+background: url("../Images/Aerobics/Coaches/Aliona-Dyumaeva_min.jpg") no-repeat 50% 50%;
+    
+}
+
+
+
+ .Circle{
+    
+     width: 350px;
+     height: 350px;
+     border-radius: 50%;
+     /*background-color: #0C0C0E;*/
+     overflow: hidden;
+     /*animation-play-state: paused;*/
+     z-index: 1;
+     /*border: 1px solid white;*/
+}
+
+#photoTrainer{
+     float: left;
+     margin-top: 10%;
+     /*border: 1px solid white;*/
+}
+
+#textInformationAboutTrainer{
+     float: left;
+     margin-top: 10%;
+     width: 160px;
+     height: 200px;
+     background-color: #0C0C0E;  
+     /*border: 1px solid white;  */
+}
+
+#trainerName {
+      width: 100%;
+      font-size: 1.2em;
+}
+
+#trainerSkills {
+     margin-left: 4%;
+     margin-top: 10%;
+}
+
+#trainerMoto{
+   width: 100%;
+   font-weight: bold;
+   text-indent: 0.5em;
+   margin-top: 10%;
+   margin-left: 5%;
+   margin-right: 10%; 
+}
+
+#trainerMoto:before {
+     content:"\201e";
+}
+#trainerMoto:after {
+     content:"\201d";
+}
+
+
+#trainerTel{
+     clear: left;
+     padding-top: 1%;
+   text-align: center;
+}
+
+/*coachesFull*/
+
+ .imgAerobics {
+     float: right;
+     margin: 1%;
+ }
+
+/*Cardio*/
+
+
+ #section_Cardio {
+     display: none;
+ }
+
+
+
+/* Toning */
+
+
+ #section_Toning {
+     display: none;
+ }
+
+
+
+ /* Aqua*/
+ 
+ #section_Aqua {
+     display: none;
+ }
+ 
+ #text_Aqua {
+    
+     position: absolute;
+     top: 30%;
+     left: 1%;
+     width: 25%;
+     text-indent: 0.5em;
+     font-size: 0.9em;
+ }
+ 
+ #section_Aqua .schedule {
+     position: absolute;
+     top: 45%;
+     right: 1%;
+ }
+ 
+ #section_Aqua .schedule td,
+ #section_Aqua .schedule th {
+     text-align: center;
+     width: 30%;
+     border: 1px solid white;
+ }
+
+
+/* Zumba*/
+
+#section_Zumba {
+     display: none;
+     text-indent: 0.5em;
+     font-size: 0.9em;
+}
+
+#text1_Zumba {
+     position: absolute;
+     top: 30%;
+     left: 1%;
+     width: 26%;
+}
+
+#text2_Zumba {
+     position: absolute;
+     top: 45%;
+     width: 26%;
+}
+
+
+#text3_Zumba {
+     position: absolute;
+     top: 45%;
+     left: 30%;
+     width: 26%;
+}
+
+#section_Zumba .schedule {
+     position: absolute;
+     top: 50%;
+     left: 44%;
+     font-size: 0.9em;
+}
+
+#section_Zumba .schedule td,
+#section_Zumba .schedule th {
+     
+     width: auto;
+     text-align: center;
+     border: 1px solid white;
+}

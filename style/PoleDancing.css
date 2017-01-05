@@ -1,0 +1,308 @@
+
+/* ISPRAVLENIYA HEAD*/
+ .main-menu .sub-menu-store {
+      top: 114.5%;
+    left: 744px;
+ }
+ 
+ .sub-menu-store .pro-sub-menu-store {
+     left: -358%;
+ }
+
+.main-menu .sub-menu-services { 
+
+top: 113.5%;
+left: 0%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ .field {
+     display: block;
+     position: relative;
+     background: #0C0C0E no-repeat 50% 50%;
+     width: 1200px;
+     height: 2400px;
+     margin: 1%;
+     border-radius: 5px;
+     box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+     font-family: Arial, sans-serif;
+     font-size: 1.2em;
+     line-height: 1.5;
+ }
+ 
+#poleDancingHeader {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+ 
+}
+
+#poleDancingHeader img{
+
+    position: absolute;
+    left: 65%;
+    top: 0%;
+}
+
+#poleDancingHeader h1{
+     margin: 2%;
+     text-align: center;
+     font-style: italic;
+}
+
+
+/* MAIN*/
+#mainContentPole {
+    position: relative;
+    height: 35%;
+    /*border: 1px solid white; */
+ }
+ 
+ #img-Pole1{
+
+    float: left;
+    margin-left: 25%;
+ }   
+
+#text_kinds
+{
+    margin-top: 5%;
+}
+
+
+ #text1,
+ #text_kinds p {
+     margin-top: 1%;
+     text-indent: 1em;
+     line-height: 1em;
+ }
+ 
+
+ #photo_left {
+    clear: left;
+     float: left;
+    
+ }
+ 
+ #photo_right {
+     float: right;
+     /*padding-top: 5em;*/
+ }
+ 
+ #img_info {
+     position: absolute;
+     top: 90%;
+     left: 35%;
+ }
+
+ 
+
+ #text1 {
+     position: absolute;
+     top: 1%;
+     left: 0%;
+     padding: 10px;
+     width: 300px;
+ }
+ 
+ #text_kinds {
+     position: absolute;
+     top: 20%;
+     left: 25%;
+     padding: 5% ;
+     width: 600px;
+ }
+ 
+ #trainersPole {
+     position: inline-flex;
+     /*  left: 50%
+*/
+     margin: 1%;
+     width: 1170px;
+     height: 250px;
+     border: 1px solid white;
+ }
+ 
+ #trainersPole p {
+     margin-top: 200px;
+     text-align: center;
+     /*border: 1px solid white;*/
+ }
+ 
+ #trainersPole > #name1 {
+     background: url("../Images/Pole%20Dancing/TrainersPole/Vivien_Feld.png") no-repeat 50% 50%;
+ }
+ 
+ #trainersPole > #name2 {
+     background: url("../Images/Pole%20Dancing/TrainersPole/Elena_Goncharenko.png") no-repeat 50% 50%;
+ }
+
+
+ #trainersPole > #name3 {
+     background: url("../Images/Pole%20Dancing/TrainersPole/Julia_Efremova.png") no-repeat 50% 50%;
+ }
+
+  #trainersPole > #name4 {
+     background: url("../Images/Pole%20Dancing/TrainersPole/Eugene_Lebedynets.png") no-repeat 50% 50%;
+ }
+
+   #trainersPole > #name5 {
+     background: url("../Images/Pole%20Dancing/TrainersPole/Tatiana_Kilimnik.png") no-repeat 50% 50%;
+ }
+
+
+ .circle {
+     float: left;
+     margin: 1%;
+     width: 200px;
+     height: 200px;
+     background: #416993;
+     border: 1px solid white;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     cursor: pointer;
+ }
+ 
+ fieldset {
+     padding-top: 20px;
+     display: block;
+ }
+ legend {
+     margin: 1% 0 0 1%;
+ }
+
+ #schedule {
+     table-layout: fixed;
+     text-align: center;
+     width: 1000px;
+     background: url("../Images/Pole%20Dancing/3.jpg") no-repeat;
+     margin-left: 1%;
+     border: 2px solid white;
+ }
+ 
+ table th,
+ td {
+     padding: 5px 10px;
+     border: 2px solid white;
+ }
+
+
+.colorDay {
+    background-color: rgba(0, 255, 0, 0.3);
+}
+.colorHour {
+    font-size: 1.2em;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 110, 0.4);
+}
+
+
+ /*popUpWindow*/
+ 
+ .popup-box {
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     margin: auto;
+     width: 600px;
+     height: 640px;
+     border-radius: 5px;
+     background: rgba(0, 0, 0, 0.5);
+     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+     font-family: Arial, sans-serif;
+     z-index: 9999999;
+     font-size: 14px;
+     border: 2px solid white;
+     display: none;
+ }
+ 
+ .popup-box .close {
+     position: absolute;
+     top: -4%;
+     left: 90%;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+     cursor: pointer;
+     color: #434343;
+     padding: 20px;
+     font-size: 20px;
+ }
+ 
+ #blackout {
+     background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: none;
+
+ }
+ 
+ .PopImg_box {
+     margin: 1%;
+     float: left;
+     -webkit-box-shadow: 10px 14px 35px -3px rgba(26,21,26,0.57);
+     -moz-box-shadow: 10px 14px 35px -3px rgba(26,21,26,0.57);
+     box-shadow: 10px 14px 35px -3px rgba(26,21,26,0.57);
+     border-radius: 20px;
+ }
+ 
+ .trainerName_box {
+     text-align: center;
+  
+ }
+ 
+ .trainerInform_box,
+ .trainerRewards_box {
+     width: auto;
+     margin: 2%;
+    /* border: 2px solid red;*/
+ }
+
+.trainerContacts_box {
+ 
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: auto;
+
+}
+
+
+.trainerMoto_box {
+    clear: left;
+    margin: 5%;
+  
+
+    font-size: 1.4em;
+    font-style: italic;
+     text-align: left;
+    text-indent: 1.3em;
+}
+
+.trainerMoto_box::before {
+    content: open-quote;
+}
+
+.trainerMoto_box::after {
+    content: close-quote;
+}
+
+.trainerContacts_box {
+     
+    text-align: center;
+    float: left;
+    margin: 2%;
+}
