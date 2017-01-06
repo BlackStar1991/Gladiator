@@ -1,77 +1,41 @@
 window.onload = function() {
 
-//// Слайдер 
-//  hwSlideSpeed - Скорость анимации перехода слайда.
-// hwTimeOut - время до автоматического перелистывания слайдов.
-// hwNeedLinks - включает или отключает показ ссылок "следующий - предыдущий".
-// Значения true или false   
 
-
-function mySlider () {
-var hwSlideSpeed = 700;
-var hwTimeOut = 3000;
-var hwNeedLinks = true;
-
-$(document).ready(function(e) {
-    $('.slide').css({
-        "position": "absolute",
-        "top": '0',
-        "left": '0'
-    }).hide().eq(0).show();
-    var slideNum = 0;
-    var slideTime;
-    slideCount = $(".slider .slide").length;
-    var animSlide = function(arrow) {
-        clearTimeout(slideTime);
-        $('.slide').eq(slideNum).fadeOut(hwSlideSpeed);
-        if (arrow == "next") {
-            if (slideNum == (slideCount - 1)) { slideNum = 0; } else { slideNum++ }
-        } else if (arrow == "prew") {
-            if (slideNum == 0) { slideNum = slideCount - 1; } else { slideNum -= 1 }
-        } else {
-            slideNum = arrow;
-        }
-        $('.slide').eq(slideNum).fadeIn(hwSlideSpeed, rotator);
-        $(".control-slide.active").removeClass("active");
-        $('.control-slide').eq(slideNum).addClass('active');
-    }
-    if (hwNeedLinks) {
-        var $linkArrow = $('<a id="prewbutton" href="#">&lt;</a><a id="nextbutton" href="#">&gt;</a>')
-            .prependTo('.slider');
-        $('#nextbutton').click(function() {
-            animSlide("next");
-            return false;
-        })
-        $('#prewbutton').click(function() {
-            animSlide("prew");
-            return false;
-        })
-    }
-    var $adderSpan = '';
-    $('.slide').each(function(index) {
-        $adderSpan += '<span class = "control-slide">' + index + '</span>';
-    });
-    $('<div class ="sli-links">' + $adderSpan + '</div>').appendTo('.slider-wrap');
-    $(".control-slide:first").addClass("active");
-    $('.control-slide').click(function() {
-        var goToNum = parseFloat($(this).text());
-        animSlide(goToNum);
-    });
-    var pause = false;
-    var rotator = function() {
-        if (!pause) { slideTime = setTimeout(function() { animSlide('next') }, hwTimeOut); }
-    }
-    $('.slider-wrap').hover(
-        function() { clearTimeout(slideTime);
-            pause = true; },
-        function() {
-            pause = false;
-            rotator();
+var owl = $('.owl-carousel');
+        owl.owlCarousel({
+                items: 1,
+                loop: true,
+                autoHeight: true,
+                autoplay:true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause:true
         });
-    rotator();
-});
-}
-mySlider();
+
+        owl.on('mousewheel', '.owl-stage', function (e) {
+                if (e.deltaY > 0) {
+                        owl.trigger('next.owl');
+                } else {
+                        owl.trigger('prev.owl');
+                }
+                e.preventDefault();
+        });
+
+        $('.play').on('click',function(){
+           owl.trigger('play.owl.autoplay',[1000])
+        });
+            $('.stop').on('click',function(){
+              owl.trigger('stop.owl.autoplay')
+            });
+
+
+        $(".next_button").click(function () {
+                owl.trigger("next.owl");
+        });
+        $(".prev_button").click(function () {
+                owl.trigger("prev.owl");
+        });
+
+
 
 
 

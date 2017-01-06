@@ -13,22 +13,21 @@
 </head>
 
 <body>
-   <header>
+ <header>
     <?php include ('../includes/header.php'); ?>
 </header>
 
 
-    <main>
-        <div class="field">
+<main>
+    <div class="field">
 
         <div id="poleDancingHeader"> 
-        <h1> Pole Dancing</h1>
-         <!-- <video autoplay loop src="video/PoleDancebgvideo.mp4"></video> --> 
-            
+            <h1> Pole Dancing</h1>
+
             <img src="../Images/Pole%20Dancing/poledanceLogo.png" width="150" height="115" alt="poleLogo">
 
         </div>
-            
+        
         <div id="mainContentPole">
 
             <img id="img-Pole1" src="../Images/Pole%20Dancing/4.jpg" width="600" height="323">
@@ -44,191 +43,191 @@
             <img id="photo_right" src="../Images/Pole%20Dancing/2.jpg" width="432" height="900">
             <img id="img_info" src="../Images/Pole%20Dancing/info2.png" width="375" height="500">
 
-         </div>   
-            <fieldset>
-                <legend> OUR SCHEDULE</legend>
-                <table id="schedule" cellpadding="50">
-               
-                    <tr id="first_row">
-                        <th></th>
-                        <th>Monday</th>
-                        <th>Tuesday</th>
-                        <th>Wednesday</th>
-                        <th>Thursday</th>
-                        <th>Friday</th>
-                        <th>Saturday</th>
-                        <th>Sunday</th>
-                    </tr>
-                    <tr id="second_row">
-                        <td>***</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr id="third_row">
-                        <td>10-00</td>
-                        <td>Vivien</td>
-                        <td>Elena</td>
-                        <td>Julia</td>
-                        <td>Elena</td>
-                        <td>Vivien</td>
-                        <td>Elena</td>
-                        <td>Julia</td>
-                    </tr>
-                    <tr id="fourth_row">
-                        <td>11-00</td>
-                        <td>Vivien</td>
-                        <td>Elena</td>
-                        <td>Julia</td>
-                        <td>Elena</td>
-                        <td>Vivien</td>
-                        <td>Elena</td>
-                        <td>Julia</td>
-                    </tr>
-                    <tr id="fifth_row">
-                        <td>12-00</td>
-                        <td>Vivien</td>
-                        <td>Elena</td>
-                        <td>Julia</td>
-                        <td>Elena</td>
-                        <td>Vivien</td>
-                        <td>Elena</td>
-                        <td>Julia</td>
-                    </tr>
-                    <tr id="sixth_row">
-                        <td>13-00</td>
-                        <td>Vivien</td>
-                        <td>Elena</td>
-                        <td>Julia</td>
-                        <td>Elena</td>
-                        <td>Vivien</td>
-                        <td>Elena</td>
-                        <td>Eugene</td>
-                    </tr>
-                    <tr id="seventh_row">
-                        <td>14-00</td>
-                        <td>Vivien</td>
-                        <td>Vivien</td>
-                        <td>Eugene</td>
-                        <td>Elena</td>
-                        <td>Vivien</td>
-                        <td>Julia</td>
-                        <td>Eugene</td>
-                    </tr>
-                    <tr id="eighth_row">
-                        <td>15-00</td>
-                        <td>Elena</td>
-                        <td>Vivien</td>
-                        <td>Eugene</td>
-                        <td>Tatiana</td>
-                        <td>Eugene</td>
-                        <td>Julia</td>
-                        <td>Eugene</td>
-                    </tr>
-                    <tr id="ninth_row">
-                        <td>16-00</td>
-                        <td>Elena</td>
-                        <td>Vivien</td>
-                        <td>Eugene</td>
-                        <td>Tatiana</td>
-                        <td>Eugene</td>
-                        <td>Julia</td>
-                        <td>Eugene</td>
-                    </tr>
-                    <tr id="tenth_row">
-                        <td>17-00</td>
-                        <td>Elena</td>
-                        <td>Vivien</td>
-                        <td>Eugene</td>
-                        <td>Tatiana</td>
-                        <td>Eugene</td>
-                        <td>Vivien</td>
-                        <td>Tatiana</td>
-                    </tr>
-                    <tr id="eleventh_row">
-                        <td>18-00</td>
-                        <td>Elena</td>
-                        <td>Vivien</td>
-                        <td>Vivien</td>
-                        <td>Tatiana</td>
-                        <td>Eugene</td>
-                        <td>Vivien</td>
-                        <td>Tatiana</td>
-                    </tr>
-                    <tr id="twelfth_row">
-                        <td>19-00</td>
-                        <td>Julia</td>
-                        <td>Eugene</td>
-                        <td>Vivien</td>
-                        <td>Julia</td>
-                        <td>Tatiana</td>
-                        <td>Vivien</td>
-                        <td>Tatiana</td>
-                    </tr>
-                    <tr id="thirteenth_row">
-                        <td>20-00</td>
-                        <td>Julia</td>
-                        <td>Eugene</td>
-                        <td>Vivien</td>
-                        <td>Julia</td>
-                        <td>Tatiana</td>
-                        <td>Vivien</td>
-                        <td>Tatiana</td>
-                    </tr>
-                    <tr id="fourteenth_row">
-                        <td>21-00</td>
-                        <td>Julia</td>
-                        <td>Eugene</td>
-                        <td>Vivien</td>
-                        <td>Julia</td>
-                        <td>Tatiana</td>
-                        <td>Vivien</td>
-                        <td>Tatiana</td>
-                    </tr>
-                </table>
-            </fieldset>
+        </div>   
+        <fieldset>
+            <legend> OUR SCHEDULE</legend>
+            <table id="schedule" cellpadding="50">
+             
+                <tr id="first_row">
+                    <th></th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+                <tr id="second_row">
+                    <td>***</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr id="third_row">
+                    <td>10-00</td>
+                    <td>Vivien</td>
+                    <td>Elena</td>
+                    <td>Julia</td>
+                    <td>Elena</td>
+                    <td>Vivien</td>
+                    <td>Elena</td>
+                    <td>Julia</td>
+                </tr>
+                <tr id="fourth_row">
+                    <td>11-00</td>
+                    <td>Vivien</td>
+                    <td>Elena</td>
+                    <td>Julia</td>
+                    <td>Elena</td>
+                    <td>Vivien</td>
+                    <td>Elena</td>
+                    <td>Julia</td>
+                </tr>
+                <tr id="fifth_row">
+                    <td>12-00</td>
+                    <td>Vivien</td>
+                    <td>Elena</td>
+                    <td>Julia</td>
+                    <td>Elena</td>
+                    <td>Vivien</td>
+                    <td>Elena</td>
+                    <td>Julia</td>
+                </tr>
+                <tr id="sixth_row">
+                    <td>13-00</td>
+                    <td>Vivien</td>
+                    <td>Elena</td>
+                    <td>Julia</td>
+                    <td>Elena</td>
+                    <td>Vivien</td>
+                    <td>Elena</td>
+                    <td>Eugene</td>
+                </tr>
+                <tr id="seventh_row">
+                    <td>14-00</td>
+                    <td>Vivien</td>
+                    <td>Vivien</td>
+                    <td>Eugene</td>
+                    <td>Elena</td>
+                    <td>Vivien</td>
+                    <td>Julia</td>
+                    <td>Eugene</td>
+                </tr>
+                <tr id="eighth_row">
+                    <td>15-00</td>
+                    <td>Elena</td>
+                    <td>Vivien</td>
+                    <td>Eugene</td>
+                    <td>Tatiana</td>
+                    <td>Eugene</td>
+                    <td>Julia</td>
+                    <td>Eugene</td>
+                </tr>
+                <tr id="ninth_row">
+                    <td>16-00</td>
+                    <td>Elena</td>
+                    <td>Vivien</td>
+                    <td>Eugene</td>
+                    <td>Tatiana</td>
+                    <td>Eugene</td>
+                    <td>Julia</td>
+                    <td>Eugene</td>
+                </tr>
+                <tr id="tenth_row">
+                    <td>17-00</td>
+                    <td>Elena</td>
+                    <td>Vivien</td>
+                    <td>Eugene</td>
+                    <td>Tatiana</td>
+                    <td>Eugene</td>
+                    <td>Vivien</td>
+                    <td>Tatiana</td>
+                </tr>
+                <tr id="eleventh_row">
+                    <td>18-00</td>
+                    <td>Elena</td>
+                    <td>Vivien</td>
+                    <td>Vivien</td>
+                    <td>Tatiana</td>
+                    <td>Eugene</td>
+                    <td>Vivien</td>
+                    <td>Tatiana</td>
+                </tr>
+                <tr id="twelfth_row">
+                    <td>19-00</td>
+                    <td>Julia</td>
+                    <td>Eugene</td>
+                    <td>Vivien</td>
+                    <td>Julia</td>
+                    <td>Tatiana</td>
+                    <td>Vivien</td>
+                    <td>Tatiana</td>
+                </tr>
+                <tr id="thirteenth_row">
+                    <td>20-00</td>
+                    <td>Julia</td>
+                    <td>Eugene</td>
+                    <td>Vivien</td>
+                    <td>Julia</td>
+                    <td>Tatiana</td>
+                    <td>Vivien</td>
+                    <td>Tatiana</td>
+                </tr>
+                <tr id="fourteenth_row">
+                    <td>21-00</td>
+                    <td>Julia</td>
+                    <td>Eugene</td>
+                    <td>Vivien</td>
+                    <td>Julia</td>
+                    <td>Tatiana</td>
+                    <td>Vivien</td>
+                    <td>Tatiana</td>
+                </tr>
+            </table>
+        </fieldset>
 
-            <div id="trainersPole">
-              <div class="circle" id="name1"><p>Vivien Feld</p></div>
-              <div class="circle" id="name2"><p>Elena Goncharenko</p></div>
-              <div class="circle" id="name3"><p>Julia Efremova</p></div>
-              <div class="circle" id="name4"><p>Eugene Lebedynets</p></div>
-              <div class="circle" id="name5"><p>Tatiana Kilimnik</p></div>
-            </div>
+        <div id="trainersPole">
+          <div class="circle" id="name1"><p>Vivien Feld</p></div>
+          <div class="circle" id="name2"><p>Elena Goncharenko</p></div>
+          <div class="circle" id="name3"><p>Julia Efremova</p></div>
+          <div class="circle" id="name4"><p>Eugene Lebedynets</p></div>
+          <div class="circle" id="name5"><p>Tatiana Kilimnik</p></div>
+      </div>
 
-            		<p> We are waiting for you in our studio!
-                <br> Pole Dance classes will give you confidence and will become your favorite hobby for many years!</p>
-        </div>
+      <p> We are waiting for you in our studio!
+        <br> Pole Dance classes will give you confidence and will become your favorite hobby for many years!</p>
+    </div>
+    <!-- popUpWindow -->
+    <div class="popup-box">
+      <img src="" alt="Trainer" class="PopImg_box">
+      <div class="trainerName_box"></div>
+      <div class="close"></div>
+      <div class="trainerInform_box"></div>
+      <div class="trainerRewards_box"></div>
+      <div class="trainerMoto_box"></div>
+      <div class="trainerContacts_box">
+        <p> Сontacts </p>
+        <img src="../Images/icons/fs.png" width="42" height="42">
+        <img src="../Images/icons/vk.png" width="42" height="42">
+    </div>
+</div>
 <!-- popUpWindow -->
-        <div class="popup-box">
-          <img src="" alt="Trainer" class="PopImg_box">
-         <div class="trainerName_box"></div>
-          <div class="close"></div>
-          <div class="trainerInform_box"></div>
-          <div class="trainerRewards_box"></div>
-          <div class="trainerMoto_box"></div>
-          <div class="trainerContacts_box">
-            <p> Сontacts </p>
-            <img src="../Images/icons/fs.png" width="42" height="42">
-            <img src="../Images/icons/vk.png" width="42" height="42">
-          </div>
-        </div>
-<!-- popUpWindow -->
-    </main>
+</main>
 
-    <footer>
- <?php
-    include('../includes/footer.php');
- ?>
+<footer>
+   <?php
+   include('../includes/footer.php');
+   ?>
 </footer>
 
 
-    <script src="../js/PoleDancing.js"></script>
-    <script src="../js/script.js" ></script>
+<script src="../js/PoleDancing.js"></script>
+<script src="../js/script.js" ></script>
 </body>
 
 </html>

@@ -55,10 +55,6 @@ $(function() {
  //////// 
 
 
- 
- // var photoCouch = hint;
-
-
  $(function () {
         var b = $('div[id^="couch_"]');
         $('#photosTreners').on("click", "div", function () {  // По клику на иконку тренера
@@ -121,40 +117,36 @@ function getPhotoCouchCssClass(element) {
     return histClass;
 }
 
-$(function () { 
+//  Слайдер
+function ownCarusel(){
+  var owl = $('.owl-carousel');
+        owl.owlCarousel({
+                items: 1,
+                margin:10,
+                loop: true,
+                autoHeight: true,
 
-     var galleryItem = $('#sliderGallery li');
-     var itemsCount = galleryItem.length;
-     var index = 1;
-            
-       galleryItem.eq(0).fadeIn();  
+        });
         
-         window.setInterval(function () {
-                galleryItem.hide();
-                galleryItem.eq(index).fadeIn("slow");
-
-        index++;
-
-          $('#gloveLeft').click(function(){
-                
-                galleryItem.eq(index-1).fadeIn("slow");
-            });
-
-              
-
-         
+        owl.on('mousewheel', '.owl-stage', function (e) {
+                if (e.deltaY > 0) {
+                        owl.trigger('next.owl');
+                } else {
+                        owl.trigger('prev.owl');
+                }
+                e.preventDefault();
+        });
 
 
-            console.log(index);
+        $(".gloveRight").click(function () {
+                owl.trigger("next.owl");
+        });
+        $(".gloveLeft").click(function () {
+                owl.trigger("prev.owl");
+        });
 
-        if (index == itemsCount) {
-            index = 0;
-        }
-    }, 2000);
- 
-      
-      
-});
+
+} ownCarusel();
 
 
 

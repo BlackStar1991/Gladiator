@@ -63,15 +63,15 @@
                                 Bars
                                 <img src="../Images/icons/menu/bars.png" width="32" height="32"></a>
                         <li>
-                            <a href="Protein.html">
+                            <a href="../store/Protein.php">
                                 Protein
                                 <img src="../Images/icons/menu/protein.png" width="32" height="32"></a>
                     </ul>
                 <li>
-                    <a href="">Stuff Sports</a>
+                    <a>Stuff Sports</a>
                 </li>
                 <li>
-                    <a href="">ECR</a>
+                    <a>ECR</a>
                 </li>
             </ul>
         </li>
