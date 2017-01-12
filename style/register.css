@@ -16,26 +16,39 @@
 
 
 
+.ask{
+    margin-left: 1%;
+    font-size: 2em;
+}
+
 .photo {
         float: left;
+        position: relative;
         width: 150px;
         height: 200px;
-        background-color: white;
+        background-color: #302C2C;
         margin: 10px;
-        border: 2px solid black;
+        border: 2px solid #C0C0C0;
         border-radius: 10px;
+        background: url("../Images/icons/avatar.png") no-repeat 50% 50%;
         overflow: hidden;     
 }
 
-/* .photo p{
-    padding-top: 40%;
+.errorRegistred{
+    width: 100%;
+    color: red;
     text-align: center;
-    color: black;
-} */
+}
+
+#my_file{
+    position: absolute;
+    top: 45%;
+    left: 12%;
+    z-index: -1;
+}
 
 .register {
-    float: left;
-    
+    float: left;   
 }  
 
 .register p {
@@ -43,28 +56,18 @@
     margin: 0;
 }
 
-.register input[type="text"], [type="password"] { 
-        
-       box-sizing: border-box;
-       width: 20%;
-       padding: 5px;
-       border: 2px solid black;
 
- }
-
-#avatar{
-    background: url("Images/Ex2.png") no-repeat ;
-}
-
- #avatar:hover { 
-    background: url("Images/Ex.png") no-repeat 50% ;
+.register input:not([type="radio"]):not([type="checkbox"]){    
+    float: right;
+     margin-right: 2%;
+     border: 2px solid black;
  }
 
  #moto { 
     position: absolute;
-    left: 75%;
+    left: 65%;
     top: 30%;
     width: 200px;
     height: 200px;
-    background: url(Images/moto1.png) no-repeat 100% 50%;
+    background: url(../Images/moto1.png) no-repeat 100% 50%;
  }

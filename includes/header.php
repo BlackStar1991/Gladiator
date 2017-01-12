@@ -1,3 +1,7 @@
+<!-- <?php
+   // require "db.php";
+ ?>  -->
+
  <div class="block-absolute"><b>It's firt web-page
         <br>created by Andry Zirka</b>
     </div>
@@ -77,13 +81,9 @@
         </li>
     </ul>
     <div id="toolbar">
-        <form  autocomplete="on">
-            <input class="block_bar" type="text" name="Login" placeholder="Login">
-            <input class="block_bar" type="password" name="Password" placeholder="Password">
-            <div id="likeSubmit">&#9658;</div>
-            <div>
-                <a href="Register.html">Register</a>
-                <a href="">/ Forgot the password?</a>
-            </div>
-        </form>
-</div>
+         <?php
+     include ('login.php');
+     ?>
+
+
+    </div>
